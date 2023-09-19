@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Binary Search Tree UI</title>
+</head>
+<body>
+<div class="container">
+    <div class="input-section">
+        <h1>Binary Search Tree UI</h1>
+        <input id="input" type="number" placeholder="Enter a value [only one digit]">
+        <button id="insert">Insert</button>
+        <button id="delete">Delete</button>
+        <button id="clear">Clear</button>
+    </div>
+    <div class="output-section">
+        <div class="traversals">
+            <h2>Traversals</h2>
+            <div id="inorder">In-Order: </div>
+            <div id="preorder">Pre-Order: </div>
+            <div id="postorder">Post-Order: </div>
+            <div id="levelorder">Level-Order: </div>
+        </div>
+        <div class="pretty-print">
+            <h2>Pretty Print</h2>
+            <pre id="pretty-output"></pre>
+        </div>
+    </div>
+</div>
+<script src="binarySearchTree.js"></script>
+</body>
+</html>
